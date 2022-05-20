@@ -1,0 +1,72 @@
+h1 {
+  font-size: 38px;
+}
+
+.calculator {
+  margin: 0 auto;
+  display: block;
+  width: 320px;
+  border: 1px solid gray;
+  background-color: salmon;
+  border-radius: 12px;
+  padding: 30px;
+
+  input {
+    width: 100%;
+    border-radius: 6px;
+    height: 45px;
+    text-align: right;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .number {
+      background-color: aliceblue;
+      width: 92px;
+      height: 92px;
+      font-weight: bold;
+      border-radius: 12px;
+      margin: 15px auto;
+      font-size: 24px;
+
+      &.green {
+        background-color: green;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+
+    .operator {
+      width: 60px;
+      height: 55px;
+      font-weight: bold;
+      font-size: 26px;
+      border-radius: 12px;
+      border: 1px solid gray;
+      margin-bottom: 15px;
+
+      &.red {
+        background-color: red;
+      }
+
+      &.orange {
+        background-color: darkgoldenrod;
+      }
+
+      &.blue {
+        background-color: aqua;
+      }
+
+      &.gray {
+        background-color: gray;
+        color: wheat;
+      }
+    }
+  }
+}
